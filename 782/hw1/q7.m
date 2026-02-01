@@ -1,5 +1,3 @@
-
-
 function func(n)
     T = zeros(n);
     X = zeros(n);
