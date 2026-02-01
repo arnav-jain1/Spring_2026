@@ -31,6 +31,8 @@ Since $\vec{u} \neq \vec{0}$, then $1 + \vec{v}^T\vec{u} = 0 \implies \vec{v}^T\
 Let $A^{-1}=I-\frac{1}{1+\vec{v}^{T}\vec{u}}\vec{u}\vec{v}^{T}$ WTS $A^{-1}A=I=AA^{-1}$
 $(I+\vec{u}\vec{v}^{T})(I-\frac{1}{1+\vec{v}^{T}\vec{u}}\vec{u}\vec{v}^{T})$
 
+Arrows omitted for clarity 
+![[Pasted image 20260201165113.png]]
 
 ## 5
 $\|\cdot\|_W$ is a vector norm
@@ -88,8 +90,15 @@ So:
 $(\|\vec{x}\|_2)^2 \le (\sqrt{m} \|\vec{x}\|_\infty)^2 \implies \|\vec{x}\|_2 \le \sqrt{m} \|\vec{x}\|_\infty$
 
 ### c)
-
 $\|A\|_{\infty} \le \sqrt{n} \|A\|_2$
+
+Let $x \in \mathbb{R}$ therefore Ax is a vector
+$||Ax||_{\infty} \le ||Ax||_{2}$ from prev $\le ||A||_{2}||x||_{2}$ by 2-norm rules 
+$\le ||A||_{2}\sqrt{n}||x||_{\infty}$ by prev
+
+So now we have $||Ax||_{\infty} \le ||A||_{2}\sqrt{n}||x||_{\infty}$ which implies
+$\frac{||Ax||_{\infty}}{||x||_{\infty}} \le \sqrt{n}||A||_{2}$  
+and since $||A||_{\infty} =  sup \frac{||Ax||_{\infty}}{||x||_{\infty}}$, $||A||_{\infty} \le \sqrt{n}||A||_{2}$
 ## 7
 ### a)
 ![[Pasted image 20260131225322.png]]
