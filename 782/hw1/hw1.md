@@ -1,4 +1,50 @@
 
+## 2
+### a)
+$||x_{1} + x_{2}||_{2}^{2} = ||x_{1}||^{2}_{2}+2\langle x_{1}, x_{2} \rangle +||x_{2}||^{2}_{2}$ since $x_{1}$ and $x_{2}$ are orthogonal, $\langle x_{1}x_{2}\rangle =0$ so $= ||x_{1}||^{2}_{2}+ ||x_{2}||^{2}_{2}$
+So both are the same
+
+### b)
+Proven base case n=2
+Inductive hypothesis: true for n orthogonal vecs $\{x_{1}...x_{n}\}$
+WTS true for n+1 orthogonal vecs $\{x_{1}...x_{n} \ x_{n+1}\}$
+Since we know $||x_{1}||^{2}_{2}+...+ ||x_{n}||^{2}_{2}=||x_{1}+...x_{n}||^{2}_{2}$, 
+Let $x=x_{1}+...x_{n}$ so now we need to show $||x+x_{n+1}||^{2}_{2}=||x||^{2}_{2}+||x_{n+1}||^{2}_{2}$ and since we have this already from part a, we know this is true if $x$ and $x_{n+1}$ are orthogonal 
+Proving $x$ and $x_{n+1}$ are orthogonal:
+	Using inner products we know $\langle x, x_{n+1} \rangle = \langle x_{1}+...+x_{n}, x_{n+1} \rangle = \langle x_{1}, x_{n+1} \rangle + ... + \langle x_{n}, x_{n+1} \rangle$
+		Since we know that $x_{n+1}$ is orthogonal to $\{x_{1}...x_{n}\}$, $\langle x_{i}, x_{n+1} \rangle=0$ 
+	So the sum $=0$ so $x$ and $x_{n+1}$ are orthogonal
+
+Since they are orthogonal, we can now apply our result from a to complete our inductive step
+
+## 3
+$S^T=-S$
+### a) WTS I-S is nonsingular
+If 0 is an eigenvalue, then a matrix is singular
+Proof by contradiction, let 0 be an eigenvalue for I-S
+So $\exists x \in \mathbb{R}^{m}$ where $x \ne 0$ st $(I-S)x=0$ so $x-Sx=0$ so $Sx=x$. This implies that 1 is an eigenvalue of S but since we know that S is skew-symmetric, we know that its eigenvalues are imaginary of 0 so 1 cannot be an eigenvalue therefore contradiction. 
+So 0 is not an eigenvalue for $I-S$ so $I-S$ is nonsingular
+
+### b)
+WTS $Q=(I-S)^{-1}(I+S)$ is orthogonal ie $Q^T=Q^{-1}$ so
+
+$QQ^T=(I-S)^{-1}(I+S)((I-S)^{-1}(I+S))^{T}$
+$=(I-S)^{-1}(I+S)(I+S)^T(I-S)^{-1T}$  
+$=(I-S)^{-1}(I+S)(I+S^T)(I-S^T)^{-1}$  
+$=(I-S)^{-1}(I+S)(I-S)(I+S)^{-1}$  
+Since $(I+S)(I-S)=I-S^{2} = (I-S)(I+S)$ we can commute them so
+$=(I-S)^{-1}(I-S)\quad * \quad (I+S)(I+S)^{-1}$  
+$=I * I = I$
+
+$Q^TQ=((I-S)^{-1}(I+S))^{T}(I-S)^{-1}(I+S)$
+$=(I+S)^T(I-S)^{-1T}(I-S)^{-1}(I+S)$  
+$=(I+S^T)(I-S^T)^{-1}(I-S)^{-1}(I+S)$  
+$=(I-S)(I+S)^{-1}(I-S)^{-1}(I+S)$  
+Since $(I+S)$ and $(I-S)$ commute, their inverses must compute so $(I+S)^{-1}$ and $(I-S)^{-1}$ commute 
+$=(I-S)(I-S)^{-1}\quad * \quad (I+S)^{-1}(I+S)$  
+$=I * I = I$
+
+Therefore $Q^{T}Q=QQ^{T}=I$ so $Q^{T}=Q^{-1}$
 ## 4
 ### a)
 Rank of $\vec{u}\vec{v}^T$
