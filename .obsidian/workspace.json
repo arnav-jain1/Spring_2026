@@ -53,13 +53,11 @@
             "id": "e80c75de07280d29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "782/hw1/hw1.md",
-                "mode": "source",
-                "source": false
+                "file": "782/hw1/hw1.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "hw1"
             }
           }
@@ -214,6 +212,8 @@
   },
   "active": "e80c75de07280d29",
   "lastOpenFiles": [
+    "782/hw1/hw1.md",
+    "782/hw1/hw1.pdf",
     "782/hw1/Pasted image 20260201165113.png",
     "782/hw1/Pasted image 20260131225445.png",
     "782/hw1/Pasted image 20260131225422.png",
@@ -221,7 +221,6 @@
     "782/hw1/Pasted image 20260131225348.png",
     "782/hw1/Pasted image 20260131225322.png",
     "582_capstone/1-26.md",
-    "782/hw1/hw1.md",
     "582_capstone/submissions/1-26.pdf",
     "582_capstone/submissions",
     "582_capstone",
@@ -238,11 +237,9 @@
     "numerical/Exam2/Pasted image 20251204134927.png",
     "numerical/Exam2/Pasted image 20251204134914.png",
     "numerical/Exam2/Pasted image 20251204134859.png",
-    "numerical/Exam2/Pasted image 20251204134837.png",
     "numerical/hw10/hw.md",
     "numerical/hw8/hw8.pdf",
     "numerical/hw8/hw8.md",
-    "numerical/hw7/hw7.pdf",
     "numerical/hw7/hw7.md",
     "numerical/hw9/hw9.md",
     "swe2/A1.md",

@@ -1,3 +1,20 @@
+## 1)
+
+Let A be an nxn lower triangular nonsingular matrix with elements $a_{i,j}$.
+Let B=$A^{-1}$ and B not be lower triangular with elements $b_{i,j}$. 
+Know that AB=I and for $i\ne j$, $I_{i,j}=0$ Let $B_{m,k}$ be the first nonzero entry above the main diagonal (m\<k). 
+
+Then the prod of (row m of A) * (col k of B) 
+$=a_{m,1}*b_{1,k} + a_{m,2}*b_{2,k} + ... + a_{m,n}*b_{n,k}$, call this equation **1**
+Know that for $a_{m,j}=0$ where $j>m$ so **1** is equal to
+$=a_{m,1}*b_{1,k} + a_{m,2}*b_{2,k} + ... + a_{m,m}*b_{m,k}$
+Similarly $b_{1,k}=...=b_{m-1,k}=0$  so **1** is equal to
+$=a_{m,m}*b_{m,k}$ and since $a_{m,m}\ne 0$ because A is nonsingular and lower triangular (diagonal must be nonzero because if there is a 0 in the main diagonal then the determinant is 0) and $b_{m,k} \ne 0$  because we picked it so
+**equation 1**$\ne 0$
+
+We have shown that $I_{m,k}$=(row m of A) * (col k of B) $\ne 0$ but $I_{m,k}=0$ based on the definition of identity matrix so we have a contradiction
+
+So B must be lower triangular
 
 ## 2
 ### a)
