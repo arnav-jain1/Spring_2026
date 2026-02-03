@@ -53,12 +53,14 @@
             "id": "e80c75de07280d29",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "782/hw1/hw1.pdf"
+                "file": "582_capstone/2-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "hw1"
+              "icon": "lucide-file",
+              "title": "2-2"
             }
           }
         ],
@@ -212,8 +214,10 @@
   },
   "active": "e80c75de07280d29",
   "lastOpenFiles": [
-    "782/hw1/hw1.md",
+    "582_capstone/submissions/2-2.pdf",
     "782/hw1/hw1.pdf",
+    "582_capstone/2-2.md",
+    "782/hw1/hw1.md",
     "782/hw1/Pasted image 20260201165113.png",
     "782/hw1/Pasted image 20260131225445.png",
     "782/hw1/Pasted image 20260131225422.png",
