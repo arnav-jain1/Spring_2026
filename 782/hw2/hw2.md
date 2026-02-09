@@ -47,5 +47,13 @@ null_A = V(:, rank+1:end)
 ```
 ![[Pasted image 20260205115401.png]]
 ## 5
+$\implies$
+Let rankA=n, then rankA^T = n so A^TA is nonsingular.
+Then we know that $det(A^{T}A)\ne 0$
+We know that $det(A^{T}A)=det((QR)^{T}QR)=det(R^{T}Q^{T}QR)$. Since Q is made up of orthonormal columns, $Q^{T}Q=I_{n}$ so $=det(R^{T}R)=det(R^{T})det(R)\ne 0$ This is only possible if and only if $det(R^{T}) \ne 0$ and $det(R) \ne 0$ 
+So we now have $det(R)\ne0$, since R is a triangular matrix, we know that the determinant of R is the product of its main diagonal and since determinant of R is not 0, there must not be a 0 along the main diagonal. Proof complete
+
+$\Leftarrow$  
+R has all nonzero entries
 ## 6
 ## 7
