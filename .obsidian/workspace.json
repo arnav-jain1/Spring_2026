@@ -11,13 +11,11 @@
             "id": "e80c75de07280d29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "782/hw2/hw2.md",
-                "mode": "source",
-                "source": false
+                "file": "782/hw2/hw2.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "hw2"
             }
           }
@@ -171,6 +169,14 @@
   },
   "active": "e80c75de07280d29",
   "lastOpenFiles": [
+    "782/hw2/hw2_submit.pdf",
+    "782/hw2/hw2_submit.md",
+    "782/hw2/Pasted image 20260210212023.png",
+    "782/hw2/Pasted image 20260210212001.png",
+    "782/hw2/Pasted image 20260210211923.png",
+    "782/hw2/Pasted image 20260210211906.png",
+    "782/hw2/hw2.md",
+    "782/hw2/hw2.pdf",
     "782/hw2/Pasted image 20260210211406.png",
     "782/hw2/Pasted image 20260210211343.png",
     "782/hw2/Pasted image 20260210211334.png",
@@ -180,10 +186,8 @@
     "582_capstone/2-2.md",
     "582_capstone/2-9.md",
     "582_capstone/submissions/2-9.pdf",
-    "782/hw2/hw2.md",
     "782/hw2/Pasted image 20260205115401.png",
     "782/hw2/Pasted image 20260205115159.png",
-    "782/hw2/Pasted image 20260205114658.png",
     "782/hw2/q4.m",
     "582_capstone/2-4.md",
     "782/hw2",
@@ -191,13 +195,7 @@
     "582_capstone/submissions/2-2.pdf",
     "782/hw1/hw1.pdf",
     "782/hw1/hw1.md",
-    "782/hw1/Pasted image 20260201165113.png",
-    "782/hw1/Pasted image 20260131225445.png",
-    "782/hw1/Pasted image 20260131225422.png",
-    "782/hw1/Pasted image 20260131225403.png",
     "582_capstone/1-26.md",
-    "582_capstone/submissions/1-26.pdf",
-    "582_capstone/submissions",
     "numerical/Exam2/Exam2.md",
     "Talks.md",
     "numerical/Exam1/Exam_1.md",
