@@ -39,12 +39,14 @@
             "id": "1e272fc834e81b8c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "582_capstone/3-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "3-2"
             }
           }
         ],
@@ -198,9 +200,11 @@
   },
   "active": "1e272fc834e81b8c",
   "lastOpenFiles": [
+    "582_capstone/submissions/3-2.pdf",
+    "582_capstone/2-25.md",
+    "582_capstone/3-2.md",
     "582_capstone/submissions/2-25.pdf",
     "582_capstone/2-4.md",
-    "582_capstone/2-25.md",
     "582_capstone/2-16.md",
     "791/hw3.md",
     "791/hw3_2.pdf",
@@ -226,7 +230,6 @@
     "582_capstone/2-2.md",
     "582_capstone/submissions/2-9.pdf",
     "782/hw2/Pasted image 20260205115401.png",
-    "782/hw2/q4.m",
     "782/hw1/hw1.md",
     "582_capstone/1-26.md",
     "numerical/Exam2/Exam2.md",
@@ -242,7 +245,6 @@
     "swe2/Person-hours.md",
     "numerical/hw6/hw6.md",
     "numerical/hw5/hw5.md",
-    "numerical/hw4/hw4.md",
-    "numerical/hw2/hw.md"
+    "numerical/hw4/hw4.md"
   ]
 }
