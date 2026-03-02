@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "791/hw3.md",
+                "file": "582_capstone/2-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hw3"
+              "title": "2-25"
+            }
+          },
+          {
+            "id": "1e272fc834e81b8c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,16 +196,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5c68df5281203d49",
+  "active": "1e272fc834e81b8c",
   "lastOpenFiles": [
+    "582_capstone/submissions/2-25.pdf",
+    "582_capstone/2-4.md",
+    "582_capstone/2-25.md",
+    "582_capstone/2-16.md",
+    "791/hw3.md",
     "791/hw3_2.pdf",
     "791/hw3.pdf",
     "791/Pasted image 20260216210412.png",
-    "582_capstone/2-16.md",
-    "791/hw3.md",
     "791",
     "582_capstone/submissions/2-16.pdf",
-    "582_capstone/2-4.md",
     "582_capstone/2-9.md",
     "782/hw2/hw2.pdf",
     "782/hw2/hw2_submit.pdf",
@@ -213,7 +227,6 @@
     "582_capstone/submissions/2-9.pdf",
     "782/hw2/Pasted image 20260205115401.png",
     "782/hw2/q4.m",
-    "782/hw2",
     "782/hw1/hw1.md",
     "582_capstone/1-26.md",
     "numerical/Exam2/Exam2.md",
@@ -230,7 +243,6 @@
     "numerical/hw6/hw6.md",
     "numerical/hw5/hw5.md",
     "numerical/hw4/hw4.md",
-    "numerical/hw2/hw.md",
-    "numerical/hw1/hw.md"
+    "numerical/hw2/hw.md"
   ]
 }
