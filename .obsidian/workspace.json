@@ -39,13 +39,11 @@
             "id": "1e272fc834e81b8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "782/hw3/hw3.md",
-                "mode": "source",
-                "source": false
+                "file": "782/hw3/hw3.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "hw3"
             }
           }
@@ -200,6 +198,10 @@
   },
   "active": "1e272fc834e81b8c",
   "lastOpenFiles": [
+    "782/hw3/hw3.md",
+    "782/hw3/Pasted image 20260303114135.png",
+    "782/hw3/hw3.pdf",
+    "782/hw3/out.txt",
     "782/hw3/Pasted image 20260302221458.png",
     "782/hw3/Pasted image 20260302210826.png",
     "782/hw3/q4.m",
@@ -208,7 +210,6 @@
     "782/hw3/Pasted image 20260302181929.png",
     "782/hw3/Pasted image 20260302174821.png",
     "582_capstone/3-2.md",
-    "782/hw3/hw3.md",
     "782/hw3",
     "582_capstone/submissions/3-2.pdf",
     "582_capstone/2-25.md",
@@ -219,8 +220,6 @@
     "791/hw3_2.pdf",
     "791/hw3.pdf",
     "791/Pasted image 20260216210412.png",
-    "791",
-    "582_capstone/submissions/2-16.pdf",
     "582_capstone/2-9.md",
     "782/hw2/hw2_submit.md",
     "782/hw2/Pasted image 20260210212023.png",
@@ -228,8 +227,6 @@
     "782/hw2/Pasted image 20260210211923.png",
     "782/hw2/Pasted image 20260210211906.png",
     "782/hw2/hw2.md",
-    "782/hw2/Pasted image 20260210211406.png",
-    "782/hw2/Pasted image 20260210211343.png",
     "582_capstone/2-2.md",
     "782/hw1/hw1.md",
     "582_capstone/1-26.md",
