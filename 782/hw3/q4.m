@@ -61,42 +61,51 @@ function [Q, R] = house(A)
     for k = 1:n
         x = A(k:m, k);
 
-        e = zeroes(length(x), 1);
+        e = zeros(length(x), 1);
         e(1) = 1;
 
         vk = sign(x(1)) * norm(x, 2) * e + x;
         vk = vk / norm(vk, 2);
         
         A(k:m, k:n) = A(k:m, k:n) - 2*vk * (vk' * A(k:m, k:n));
-        Q( :, k:m)  = Q( :, k:m)  - 2*vk * (vk' * Q( :, k:m));
-    end
+        Q( :, k:m)  = Q( :, k:m)  - 2* (Q( :, k:m) * vk) * vk';
+    end 
 
 
-    R = A
+    R = A;
 
 end
 
 for e = epsillons
     A = [1, 1, 1; e, 0, 0; 0, e, 0; 0, 0, e];
     
-    % fprintf("Q and R for epsilon = %f using classical GSP", e)
-    % [Q, R] = clgs(A)
-    
-    % fprintf("QR:")
-    % Q*R
-    % fprintf("Q^TQ:")
-    % Q' * Q
+    fprintf("Q and R for epsilon = %f using classical GSP", e)
+    [Q, R] = clgs(A)
+    fprintf("QR:")
+    Q*R
+    fprintf("Q^TQ:")
+    Q' * Q
 
     
 
-    % fprintf("Q and R for epsilon = %f using modified GSP", e)
-    % [Q, R] = mgs(A)
-    % fprintf("QR:")
-    % Q * R
-    % fprintf("Q^TQ:")
-    % ' * Q
+    fprintf("Q and R for epsilon = %f using modified GSP", e)
+    [Q, R] = mgs(A)
+    fprintf("QR:")
+    Q * R
+    fprintf("Q^TQ:")
+    Q' * Q
     
-    %fprintf("Q and R for epsilon = %f using Householder", e)
-    %[Q, R] = house(A)
+    fprintf("Q and R for epsilon = %f using Householder", e)
+    [Q, R] = house(A)
+    fprintf("QR:")
+    Q * R
+    fprintf("Q^TQ:")
+    Q' * Q
 
+    fprintf("Q and R for epsilon = %f using built-in", e)
+    [Q, R] = qr(A)
+    fprintf("QR:")
+    Q * R
+    fprintf("Q^TQ:")
+    Q' * Q
 end

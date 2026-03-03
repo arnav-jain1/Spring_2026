@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "582_capstone/3-2.md",
+                "file": "782/hw3/hw3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-2"
+              "title": "hw3"
             }
           }
         ],
@@ -200,9 +200,16 @@
   },
   "active": "1e272fc834e81b8c",
   "lastOpenFiles": [
+    "782/hw3/q4.m",
+    "782/hw2/q7.asv",
+    "782/hw3/q7.m",
+    "782/hw3/Pasted image 20260302181929.png",
+    "782/hw3/Pasted image 20260302174821.png",
+    "582_capstone/3-2.md",
+    "782/hw3/hw3.md",
+    "782/hw3",
     "582_capstone/submissions/3-2.pdf",
     "582_capstone/2-25.md",
-    "582_capstone/3-2.md",
     "582_capstone/submissions/2-25.pdf",
     "582_capstone/2-4.md",
     "582_capstone/2-16.md",
@@ -214,7 +221,6 @@
     "582_capstone/submissions/2-16.pdf",
     "582_capstone/2-9.md",
     "782/hw2/hw2.pdf",
-    "782/hw2/hw2_submit.pdf",
     "782/hw2/hw2_submit.md",
     "782/hw2/Pasted image 20260210212023.png",
     "782/hw2/Pasted image 20260210212001.png",
@@ -224,12 +230,7 @@
     "782/hw2/Pasted image 20260210211406.png",
     "782/hw2/Pasted image 20260210211343.png",
     "782/hw2/Pasted image 20260210211334.png",
-    "782/hw2/Pasted image 20260210211329.png",
-    "782/hw2/q7.asv",
-    "782/hw2/q7.m",
     "582_capstone/2-2.md",
-    "582_capstone/submissions/2-9.pdf",
-    "782/hw2/Pasted image 20260205115401.png",
     "782/hw1/hw1.md",
     "582_capstone/1-26.md",
     "numerical/Exam2/Exam2.md",
@@ -244,7 +245,6 @@
     "numerical/hw3/hw.md",
     "swe2/Person-hours.md",
     "numerical/hw6/hw6.md",
-    "numerical/hw5/hw5.md",
-    "numerical/hw4/hw4.md"
+    "numerical/hw5/hw5.md"
   ]
 }
