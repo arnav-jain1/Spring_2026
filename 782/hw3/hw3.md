@@ -38,4 +38,42 @@ So then now we have shown that Fx = y if F is made up of v= x-y
 
 # 3:
 
+# 4:
+![[Pasted image 20260302221458.png]]
+$f(x)=||b-Ax||^{2}_{2}=(b-Ax)^{T}(b-Ax)=b^{T}b-b^{T}Ax-x^{T}A^{T}b+x^{T}A^{T}Ax$ and
+	$b^{T}Ax$ is a scalar because b^T is 1xm A is mxn and x is nx1
+	So then $x^{T}A^{T}b= (b^{T}Ax)^{T}$  and because transpose of the scalar is the same, we can combine
+	We combine $-b^{T}Ax-x^{T}A^{T}x=-2(x^{T}A^{T}b)$ 
+$f(x)=b^{T}b-2(x^{T}A^{T}b)+x^{T}A^{T}Ax$ Now we can differenciate
+$f'(x)=-2(A^{T}b)+2A^{T}Ax$ because b^Tb gets eliminated and the second term is linear while the third is quadratic
+Now evaluating at $f'(x')=0$
+$0=-2A^{T}b+2A^{T}Ax$
+$2A^{T}b=2A^{T}Ax$
+$A^{T}b=A^{T}Ax$
+This is the equation that we get in class so they agree
+# 5: 
+![[Pasted image 20260302210826.png]]
+$||b-Ax||^{2}_{2} = ||b-Ax+Ax' - Ax'||^{2}_{2}=||b-Ax'+A(x'-x)||^{2}_{2}$  
+From here we can use a trick where 
+	$||x+ y|| = (x+y)^{T}(x+y)=x^{T}x + x^{T}y + y^{T}x + y^{T}y$ and since we are in the reals, $x^{T}y=y^{T}x$ so = $||x||+2x^{T}y+||y||$
+=$||b-Ax'||^{2}_{2} + ||A(x'-x)||^{2}_{2} +2(b-Ax')^{T}(A(x'-x))$ 
+The non norm part is as follows:
+	$2(b-Ax')^{T}(Ax'-Ax)=2(b^{T}Ax'-b^{T}Ax-x'^{T}A^{T}Ax'+x'^{T}A^{T}Ax)$
+	$=2(b^{T}Ax'-b^{T}Ax-x'^{T}A^{T}b+x'^{T}A^{T}Ax)$ bc $A^{T}Ax'=A^{T}b$
+		$(A^{T}Ax')^{T}=(A^{T}b)^{T}$ so $x'^{T}A^{T}A=b^{T}A$
+	$=2(b^{T}Ax'-b^{T}Ax-x'^{T}A^{T}b+b^{T}Ax)$ From above
+	$=2(b^{T}Ax'-x'^{T}A^{T}b)$ From above
+	$=2(b^{T}Ax'-(b^{T}Ax')^{T})$ 
+		$b^{T}Ax'$ is a scalar because b^T is 1xm A is mxn and x' nx1
+		And the transpose of a scalar is the same scalar so this is something minus itself which is 0
+	=2 * 0 = 0
+	So the stuff passed the norm is 0
+=$||b-Ax'||^{2}_{2} + ||A(x'-x)||^{2}_{2}$  and we can multiply the norm by -1 without chaning its val so
+=$||b-Ax'||^{2}_{2} + ||A(x-x')||^{2}_{2}$
+So $||b-Ax||^{2}_{2}=||b-Ax'||^{2}_{2} + ||A(x-x')||^{2}_{2}$
 
+
+
+Now let x' be a solution, then we know that ||A(x'-x)||>= 0 by the defn of norms. So this means that 
+$||b-Ax||^{2}_{2} \ge ||b-Ax'||^{2}_{2}$
+So x' minimizes $||b-Ax||^{2}_{2}$
