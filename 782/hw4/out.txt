@@ -1,0 +1,37 @@
+
+x =
+
+   100
+
+Unstable: 9.049876e+00
+Stable: 9.049876e+00
+
+x =
+
+       10000
+
+Unstable: 9.900500e+01
+Stable: 9.900500e+01
+
+x =
+
+     1000000
+
+Unstable: 9.990005e+02
+Stable: 9.990005e+02
+
+x =
+
+   100000000
+
+Unstable: 9.999000e+03
+Stable: 9.999000e+03
+
+x =
+
+   1.0000e+10
+
+Unstable: 9.999900e+04
+Stable: 9.999900e+04
+Unstable for x -> 0: 0.000000e+00
+Stable for x -> 0: 5e-17
