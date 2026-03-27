@@ -43,19 +43,22 @@ fprintf("Test case: \n")
 xn = x(5);
 disp(xn);
 
-[A, b] = make_matrix(100, 15);
-lhs = A' * A;
-rhs = A' * b;
-L = chol(lhs, "lower");
-U = L';
-y = forsub(L, rhs);
-x = bacsub(U, y);
-fprintf("Actual: \n")
-xn = x(15);
-disp(xn);
-sig_figs = -log10(abs(xn - exact_xn) / abs(exact_xn));
-fprintf("Sig figs: %.2f\n", sig_figs);
-
+try
+    [A, b] = make_matrix(100, 15);
+    lhs = A' * A;
+    rhs = A' * b;
+    L = chol(lhs, "lower");
+    U = L';
+    y = forsub(L, rhs);
+    x = bacsub(U, y);
+    fprintf("Actual: \n")
+    xn = x(15);
+    disp(xn);
+    sig_figs = -log10(abs(xn - exact_xn) / abs(exact_xn));
+    fprintf("Sig figs: %.2f\n", sig_figs);
+catch
+    fprintf("Cannot run Chol because of conditioning/positive definite\n")
+end
 % Part 2
 fprintf("Part 2) \n")
 [A, b] = make_matrix(10, 5);
@@ -89,7 +92,7 @@ fprintf("Sig figs: %.2f\n", sig_figs);
 % Part 4
 fprintf("Part 4) \n")
 [A, b] = make_matrix(100, 15);
-x = A / b;
+x = A \ b;
 fprintf("Actual: \n");
 xn = x(15);
 disp(xn);
