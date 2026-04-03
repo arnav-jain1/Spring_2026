@@ -143,7 +143,7 @@ Sig figs: 6.57
 
 ## Problem 3
 $f(x) = \frac{1-cos(x)}{x^{2}} = \frac{(1-cos(x))(1+cos(x))}{x^{2}(1+cos(x))}=\frac{1-cos^{2}(x)}{x^{2}(1+cos(x))}=\frac{sin^{2}(x)}{x^{2}(1+cos(x))}$ , this is stable because no catastrophic cancellation 
-
+![[Pasted image 20260326204823.png]]
 
 ## Problem 4
 $f(x) = (1+x)^{\frac{1}{3}}-1$
@@ -222,6 +222,8 @@ Unstable for x -> 0: 0.000000e+00
 Stable for x -> 0: 5e-17
 
 ```
-Here we say that there was total cancellation for the unstable, we lost all precision but for stable we still have.
+Here we see that there was total cancellation for the unstable, we lost all precision. 
+For stable we retain the precision and have the answer.
 
 ## problem 6
+![[Pasted image 20260326204932.png]]
