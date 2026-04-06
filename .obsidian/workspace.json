@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "791/hw5.md",
+                "file": "782/hw5/hw5.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,6 +212,10 @@
   },
   "active": "ab5cc929b0e7bd97",
   "lastOpenFiles": [
+    "782/hw5/q4.m",
+    "782/hw5",
+    "791/hw5.md",
+    "782/hw5/hw5.md",
     "782/hw4/hw4.md",
     "782/hw4/hw4.pdf",
     "782/hw4/Pasted image 20260326204932.png",
@@ -224,10 +228,8 @@
     "782/hw4/q1.m",
     "782/hw4/Pasted image 20260323180511.png",
     "782/hw4/Pasted image 20260323181359.png",
-    "791/hw5.md",
     "782/hw4",
     "582_capstone/lu39142ozqew.tmp",
-    "791/hw5.pdf",
     "791/Pasted image 20260311203942.png",
     "791/Pasted image 20260311193217.png",
     "791/Pasted image 20260311182124.png",
@@ -255,7 +257,6 @@
     "numerical/hw10/hw.md",
     "numerical/hw8/hw8.md",
     "numerical/hw7/hw7.md",
-    "numerical/hw9/hw9.md",
-    "swe2/A1.md"
+    "numerical/hw9/hw9.md"
   ]
 }
