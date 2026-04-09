@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "782/hw6/hw6.md",
+                "file": "Norway notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hw6"
+              "title": "Norway notes"
             }
           }
         ]
@@ -169,10 +169,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "037c63b461481bcc",
+  "active": "e80c75de07280d29",
   "lastOpenFiles": [
-    "782/hw5/hw5.pdf",
     "782/hw6/hw6.md",
+    "Norway notes.md",
+    "782/hw5/hw5.pdf",
     "782/hw6/q5.m~",
     "782/hw6/q5.m",
     "782/hw6",
