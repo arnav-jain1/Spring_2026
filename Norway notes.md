@@ -26,4 +26,3 @@ Leave 11th
 Get to Munich on 12th
 Get to lofoten on 13th 
 Get to Bergen the 18th
-Get back to munich 22nd
