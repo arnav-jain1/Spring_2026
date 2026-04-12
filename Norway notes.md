@@ -15,12 +15,17 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 		- Gaularfjellet
 		- Aurlandsfjellet
 		- Sognefjellet
+	- Glacier hike 
+		- https://www.folgefonni.no/tours/panorama-glacier-hike
+	- Gamle Strynefjellsvegen
 - Lofoten: 3-4 days
 	- Rambergstranda
 	- Hauklandstranda
 	- Can also do Senja
 	- Gimsøysand
 	- reinbrigen
+	- Can also do tromso
+https://www.nasjonaleturistveger.no/
 
 Leave 11th
 Get to Munich on 12th
