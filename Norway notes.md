@@ -25,7 +25,6 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 	- Can also do Senja
 	- Gimsøysand
 	- reinbrigen
-	- Can also do tromso or Sommarøy
 - Oslo (like 2 days)
 	- Akershus Fortress 
 	- Floating sauna
@@ -36,6 +35,27 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 https://www.nasjonaleturistveger.no/
 
 Leave 11th
-Get to Munich on 12th
+Get to Osloon 12th
 Get to lofoten on 13th 
 Get to Bergen the 18th
+
+- 12th
+- 13th (I join)
+- 14th 
+	- Leave for Lofoten
+- 15th
+- 16th
+- 17th
+- 18th
+Leave here for Bergen
+- 19th
+- 20th
+- 21th
+- 22th
+- 23th
+- 24th Leave for home
+
+
+3-4 days in Lofoten
+5-6 days in Bergen
+
