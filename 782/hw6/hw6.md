@@ -1,4 +1,16 @@
+## Problem 1
+![[Pasted image 20260415211140.png]]
 
+## Problem 2
+![[Pasted image 20260415211151.png]]
+
+
+## Problem 3
+![[Pasted image 20260415211200.png]]
+
+
+## Problem 4
+![[Pasted image 20260415211209.png]]
 ## Problem 5
 Code:
 ```matlab
@@ -35,3 +47,7 @@ err =
 
 
 ```
+
+
+## Problem 6
+![[Pasted image 20260415211221.png]]
