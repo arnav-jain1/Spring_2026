@@ -26,6 +26,13 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 	- Gimsøysand
 	- reinbrigen
 	- Can also do tromso or Sommarøy
+- Oslo (like 2 days)
+	- Akershus Fortress 
+	- Floating sauna
+	- Norsk Folkemuseum 
+	- Floating sauna
+	-  Karl Johans Gate
+	- Fjords
 https://www.nasjonaleturistveger.no/
 
 Leave 11th
