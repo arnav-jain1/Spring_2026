@@ -49,13 +49,19 @@ Get to Bergen the 18th
 - 18th
 Leave here for Bergen
 - 19th
+	- Bergen to Voss, 1 day in voss
 - 20th
+	- Go to Flam, spend the day in Flam
 - 21th
+	- Morning leave for VoringFossen and stop in Tyssedal (Trolltunga)
 - 22th
+	- Day in trolltunga 
 - 23th
+	- Folgefonna and head home
 - 24th Leave for home
 
 
 3-4 days in Lofoten
 5-6 days in Bergen
+
 
