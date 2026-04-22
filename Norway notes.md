@@ -20,10 +20,14 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 	- Gamle Strynefjellsvegen
 	- Jotunheimen
 - Lofoten: 3-4 days
+	- https://jesswandering.com/lofoten-in-summer-7-day-lofoten-itinerary/
 	- Rambergstranda
 	- Hauklandstranda
 	- Gimsøysand
 	- reinbrigen
+	- https://www.68north.com/lofoten-hikes/hiking-horseid-beach/
+	- Cruise or Kayak
+	- Festvågtind hike https://www.alltrails.com/trail/norway/nordland/festvagtinden
 - Oslo (like 2 days)
 	- Akershus Fortress 
 	- Floating sauna
@@ -45,18 +49,36 @@ Get to Bergen the 18th
 - 15th
 - 16th
 - 17th
+	- Land in Bergen. Take a scenic route to Flam (seeing Voringfossen)
+	- Stegastein Viewpoint
 - 18th
-Leave here for Bergen
+	- Day in Vorringfossen, can do ferry or train or both
+	- Leave for Jotunheim
+		- Borgund Stave Church
+		- Lom Stave Church
 - 19th
-	- Bergen to Voss, 1 day in voss
+	- Glacier hike
+		- https://www.bfl.no/en/nigardsbreen-glacier-hikes/
+	- Can also do ferry 
+		- https://besseggen.net/informasjon/gjendeferry/?lang=en
+	- Lake Bøvertunvatnet area
+	- Lake Gjende viewpoints
+	- Besseggen Ridge (Just me)
+	- Bondhusvatnet hike
 - 20th
-	- Go to Flam, spend the day in Flam
+	- Jotunheim and leave for Gerianger
 - 21th
-	- Morning leave for VoringFossen and stop in Tyssedal (Trolltunga)
+	- Flydalsjuvet
+	- Ørnesvingen
+	- Dalsnibba Skywalk (optional drive-up)
+	- Cruise to see Seven Sisters Waterfall
+	- Storseterfossen
+	- This drive https://www.nasjonaleturistveger.no/en/routes/geiranger--trollstigen/
+	- Videfossen
 - 22th
-	- Day in trolltunga 
+	- Day in Geiranger 
 - 23th
-	- Folgefonna and head home
+	- Leave in morning for bergen
 - 24th Leave for home
 
 
