@@ -22,7 +22,6 @@ Theres also a train from Oslo to Bergen that's pretty scenic
 - Lofoten: 3-4 days
 	- Rambergstranda
 	- Hauklandstranda
-	- Can also do Senja
 	- Gimsøysand
 	- reinbrigen
 - Oslo (like 2 days)
