@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Travel notes.md",
+                "file": "Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Travel notes"
+              "title": "Todo"
             }
           }
         ],
@@ -186,6 +186,9 @@
   },
   "active": "7299c6d9528eb444",
   "lastOpenFiles": [
+    "582_capstone/lu261353kq4g.tmp",
+    "Travel notes.md",
+    "Todo.md",
     "Travel_notes.pdf",
     "Norway notes.pdf",
     "782/hw6/hw6.pdf",
@@ -194,7 +197,6 @@
     "782/hw6/Pasted image 20260415211200.png",
     "782/hw6/Pasted image 20260415211151.png",
     "782/hw6/Pasted image 20260415211140.png",
-    "Travel notes.md",
     "782/hw6/hw6.md",
     "782/hw5/hw5.pdf",
     "782/hw6/q5.m~",
@@ -208,7 +210,6 @@
     "782/hw5/Pasted image 20260407193541.png",
     "782/hw5/q4.m~",
     "782/hw5/q4.m",
-    "782/hw5",
     "791/hw5.md",
     "782/hw4/hw4.md",
     "782/hw4/Pasted image 20260326204932.png",
@@ -230,7 +231,6 @@
     "Talks.md",
     "numerical/Exam1/Exam_1.md",
     "numerical/Exam2/Exam2_2.md",
-    "numerical/hw10/hw.md",
-    "numerical/hw8/hw8.md"
+    "numerical/hw10/hw.md"
   ]
 }

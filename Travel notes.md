@@ -103,9 +103,16 @@ https://www.google.com/maps/dir/Bergen,+Norway/V%C3%B8ringfossen,+5785+V%C3%B8ri
 # Korea
 https://docs.google.com/document/d/1HKUj-1IwgBoiHtPdsxxNY3xofAGUyupbtkoT-AIYlkM/edit?tab=t.4nks2uay24jn
 Book hair and skin treatment
+- Benjamin clinic for Acne
 
 # HK
-Todo
+- June 1st (land)
+	- Victoria Peak and do the sneaky shit
+	- Go to Kowloon 
+- June 2nd
+- June 3rd
+- June 4th
+- June 5th Leave for Slovakia (8:30 am flight so leave by like 5am at the latest)
 
 # Slovakia
 https://docs.google.com/document/d/1GTq-FSuXMMmbSv_5j4N4i2zjqnqfGOxMUqP0VzDGUvU/edit?pli=1&tab=t.0#heading=h.2w5ei6ilvdf9
