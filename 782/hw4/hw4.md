@@ -139,6 +139,7 @@ Sig figs: 6.57
 ```
 
 ## Problem 2
+![[Pasted image 20260422155257.png]]
 
 
 ## Problem 3
