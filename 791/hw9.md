@@ -82,11 +82,44 @@ Multiplication is obvious
 
 ## Problem 1
 
+![[Pasted image 20260429195205.png]]
 ## Problem 2
+![[Pasted image 20260429195235.png]]
 
 ## Problem 3
+![[Pasted image 20260429195251.png]]
 ## Problem 4
+![[Pasted image 20260429195313.png]]
+
 ## Problem 5
+![[Pasted image 20260429195333.png]]
+
 ## Problem 13
+Let $\phi:\mathbb{Q}(\sqrt[4]{3}) \rightarrow \mathbb{Q}(\sqrt[4]{3}i)$. 
+Let $x \in \mathbb{Q}(\sqrt[4]{3})$, $x=a+b\sqrt[4]{3}+c\sqrt[4]{9}+d\sqrt[4]{27}$  
+Let $y \in \mathbb{Q}(\sqrt[4]{3}i)$, $y=e+(f\sqrt[4]{3}+g\sqrt[4]{9}+h\sqrt[4]{27})i$   where $a,b,c,d,e,f,g,h \in \mathbb{Q}$ 
+Def $\phi(x)=\phi(a+b\sqrt[4]{3}+c\sqrt[4]{9}+d\sqrt[4]{27})=a+(b\sqrt[4]{3}+c\sqrt[4]{9}+d\sqrt[4]{27})i$
+This is obviously well defined. 
+Homomorphism:
+$\phi(x+y)=(a+e)+(b+f)\sqrt[4]{3}+(c+g)\sqrt[4]{9}+(d+h)\sqrt[4]{27}x$
+$=a+b\sqrt[4]{3}+c\sqrt[4]{9}+d\sqrt[4]{27}+e+f\sqrt[4]{3}+g\sqrt[4]{9}+h\sqrt[4]{27}=\phi(x)+\phi(y)$ 
+Similarly, 
+$\phi(xy)=(a+b\sqrt[4]{3}+c\sqrt[4]{9}+d\sqrt[4]{27})(e+f\sqrt[4]{3}+g\sqrt[4]{9}+h\sqrt[4]{27})=\phi(x)\phi(y)$ 
+
+
+Know that {1, $\sqrt[4]{3}, \sqrt[4]{9}, \sqrt[4]{27}$} is a basis for $\mathbb{Q}\sqrt[4]{3}$ and {1, $\sqrt[4]{3}i, \sqrt[4]{9}i, \sqrt[4]{27}i$} is a basis for $\mathbb{Q}\sqrt[4]{3}i$ 
+$\phi(1)=1, \phi(\sqrt[4]{3})=\sqrt[4]{3}i, \phi(\sqrt[4]{9})=\sqrt[4]{9}i, \phi(\sqrt[4]{27})=\sqrt[4]{27}i$
+So this means that phi maps the basis of $\mathbb{Q}(\sqrt[4]{3})$ to the basis of $\mathbb{Q}(\sqrt[4]{3}i)$, so it must be 1-1 and onto (proof of this done in 590)
+
+
+Hence they are isomorphic. They are obviously not equal because $\sqrt[4]{3}$ is in $\mathbb{Q}(\sqrt[4]{3})$ but not$\mathbb{Q}(\sqrt[4]{3}i)$
 ## Problem 15
+No it is not a field. We know the theorem doesn't apply because $\mathbb{Z}$ is not a field.
+Additionally this would add the roots of $x^{3}-2$ to the set. However we still know that the inverse of the nonzero and non 1 integers aren't in the set. For example 5^-1=1/5 is not in this set because it is not in the integers and it is not a multiple of one of the roots of that polynomial, so therefore the inverse of 5 isn't in the set so it isn't a field
 ## Problem 16
+Let b be a root of f. Then $f(b)=0=b^{p}+a$ so $-b^{p}=a$ this means that $f(x)=x^{p}-b^{p}=(x-b)^p$ (can do this because p is prime).
+This means that there is a singular root to f(x) which means that if $b \in \mathbb{F}$, then f(x) completely factors (or splits). If $b \notin \mathbb{F}$, then we want to show that f(x)=g(x)h(x) is not possible.
+
+So let f(x)=g(x)h(x) where b is not in the field. Then we know that $g(x)=(x-b)^{k}$ where $k<p$ and $b^{k} \in \mathbb{F}$ Then by bezout, there exists a m and n st 1=mp+nk $\implies b=b^{mp}b^{nk}$ and since $b^{p},b^{k}\in \mathbb{F}, b \in \mathbb{F}$ which is a contradiction. 
+
+So if f(x) factors, it must split. If it doesn't factor, it is irreducible
