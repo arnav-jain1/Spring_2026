@@ -1,19 +1,9 @@
 # Norway
 ## Hotels/need to book
-Hotel in Oslo, night of 12th and 13th
-Might need to book oslo fjord ferry or sauna or stuff
+Lofoten Will need to book ferries and kayak
+Car in Lofoten
 
-Hotel in Lofoten, night of 14th, 15th, 16th
-Will need to book ferries and kayak
-
-Hotel in Flam, night of 17th
-Also will need to book either train or cruise in Flam
-
-Hotel near Jotunheim park, night of 18th and 19th
-Need to book Glacier Hike and ferry
-
-Hotel near Geiranger, night of 20th, 21st, 22nd
-Need to book ferry
+Car from Bergen
 
 Hotel in Bergen, night of 23rd
 ## Random list of things
