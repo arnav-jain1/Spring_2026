@@ -1,9 +1,6 @@
 # Norway
 ## Hotels/need to book
 Lofoten Will need to book ferries and kayak
-Car in Lofoten
-
-Car from Bergen
 
 Hotel in Bergen, night of 23rd
 ## Random list of things
