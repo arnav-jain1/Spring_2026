@@ -295,6 +295,35 @@ Since we have R upper triangular and A upper Hessenberg, RA is upper Hessenberg,
 # Problem 3
 ![[Pasted image 20260503230937.png]]
 
+## a)
+Let $T'$ and $R'$ denote the first m-1 columns of T and R respectively. Then we know if T' is linearly independent, then R' is linearly independent (To show this proof by contradiction, let T' be linearly independent where R' is not. Then let x be nonzero such that R'x=0, then T'x=QR'x=Q0=0 but T' is linearly independent so T'x cannot equal 0 so contradiction. So if T' is linearly indep, then R' must be as well)
+
+Showing T' is linearly indep:
+If we remove the first row of T' (call this T''), we get an upper-triangular matrix where the main diagonal is the subdiagonal of T. Since all subdiagonal elements are nonzero, we know the main diagonal of T'' is all nonzero so det(T'') =/= 0. So the cols of T'' are linearly independent. Then if we add the row back in, we know that increasing the size of linearly independent vectors retains linear independence so the cols of T' must be linearly independent as well 
+
+Therefore we know T' is linearly indep, so R' is linearly independent
+
+## b)
+For this problem, call $\hat{T}, \hat{Q}, \hat{R}$ T', Q', and R' respectively. 
+
+![[Pasted image 20260505191823.png]]
+
+We have already shown that T' is linearly independent. From here we can show R is nonsingular by contradiction.
+Let R' be singular, then there exists an x such that R'x=0 where x is not the 0 vector
+Since T' is nonsingular, $T'x \ne 0$ since x is not the 0 vector.
+But Q'R'x=Q0=0 which is a contradiction. So $R'x \ne 0$ for all $x\ne 0$  so R' is linearly independent and therefore nonsingular
+
+$Q'=T'R'^{-1}$, know that $R'^{-1}$ is upper triangular and that T' is symmetric triadiagonal. A tridiagonal matrix * an upper triangular matrix is upper Hessenberg so we are done
+
+### c)
+Since we know Q' is upper Hessenberg, adding a column retains this property so Q is upper Hessenberg. R is upper triangular so then RQ must be upper Hessenberg. 
+
+Now we need to show $RQ=Q^TR^T$
+Because T is symmetric tridiagonal
+$T=T^{T} \implies QR=R^{T}Q^{T} \implies R=Q^{T}R^{T}Q^{T} \implies RQ=Q^{T}R^{T}$ 
+So we have $RQ=(RQ)^{T}$ so RQ is symmetric. 
+
+Since RQ is symmetric and upper Hessenberg, it must be symmetric tridiagonal
 # Problem 4
 Code:
 ```m
